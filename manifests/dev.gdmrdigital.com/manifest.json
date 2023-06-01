@@ -1,0 +1,66 @@
+---
+added: '2023-06-01 15:08:55.763593'
+thumbnail: ''
+title: ''
+
+---
+{
+  "@context": "https:///iiif.io/api/presentation/2/context.json",
+  "@id": "https://thijstem.github.io/annonatate/manifests/dev.gdmrdigital.com/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "@value": "Gent: Jan Breydelstraat: Design Museum Gent, voor 1924",
+    "@language": "nl"
+  },
+  "description": "Op de achterzijde een stempel van Commissie der Monumenten (SCMS).",
+  "rendering": {
+    "@id": "https://stad.gent/id/mensgemaaktobject/archiefgent/670026294/2023-02-23T13:48:52.850Z"
+  },
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api.collectie.gent/iiif/presentation/v2/canvas/ed66075b89291f3e384410f90a4c262a-transcode-MA_SCMS_FO_03937.jpg.json",
+          "@type": "sc:Canvas",
+          "label": "ed66075b89291f3e384410f90a4c262a-transcode-MA_SCMS_FO_03937.jpg",
+          "height": 1969,
+          "width": 2751,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "attribution": "source: Archief Gent",
+              "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://api.collectie.gent/iiif/image/iiif/2/ed66075b89291f3e384410f90a4c262a-transcode-MA_SCMS_FO_03937.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1969,
+                "width": 2751,
+                "service": {
+                  "@context": "https:///iiif.io/api/image/2/context.json",
+                  "@id": "https://api.collectie.gent/iiif/image/iiif/2/ed66075b89291f3e384410f90a4c262a-transcode-MA_SCMS_FO_03937.jpg",
+                  "profile": "https:///iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://api.collectie.gent/iiif/presentation/v2/canvas/ed66075b89291f3e384410f90a4c262a-transcode-MA_SCMS_FO_03937.jpg.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@type": "sc:AnnotationList",
+              "@id": "https://dev.gdmrdigital.com/annotations/1245635613/97025474/f73d44e3652efd736889634311ed9e3a.json",
+              "label": "Annotations for canvas ed66075b89291f3e384410f90a4c262a-transcode-MA_SCMS_FO_03937.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/97025474/35b2817e45e0d8570d6edf73f8af1214/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+  }
+}
