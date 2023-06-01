@@ -1,0 +1,44 @@
+---
+canvas: "https://api.collectie.gent/iiif/presentation/v2/canvas/4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Vargue\u00f1o",
+            "purpose": "linking",
+            "creator": {
+                "id": "thijstem",
+                "name": "thijstem"
+            },
+            "created": "2023-06-01T07:39:45.818Z",
+            "modified": "2023-06-01T07:39:48.627Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "https://data.collectie.gent/entity/dmg:0805_0-2",
+            "purpose": "tagging",
+            "creator": {
+                "id": "thijstem",
+                "name": "thijstem"
+            },
+            "created": "2023-06-01T07:39:51.341Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.collectie.gent/iiif/presentation/v2/canvas/4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"749.5266723632812,565.7991333007812 1024.4246826171875,569.8416748046875 1025.435302734375,962.986328125 750.031982421875,952.8797607421875 752.55859375,950.3531494140625 753.5692749023438,949.847900390625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://thijstem.github.io/annonatate/manifests/presentation/v2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "cf32e159-e07d-41de-a52c-804e673b196a.json",
+    "motivation": "commenting"
+}
