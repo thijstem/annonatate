@@ -1,0 +1,109 @@
+---
+added: '2023-06-01 07:32:20.546113'
+thumbnail: ''
+title: ''
+
+---
+{
+  "@context": "https:///iiif.io/api/presentation/2/context.json",
+  "@id": "https://thijstem.github.io/annonatate/manifests/presentation/v2/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "@value": "Gent: Museum van Sierkunst (nu Design Museum Gent): eerste verdieping",
+    "@language": "nl"
+  },
+  "rendering": {
+    "@id": "https://stad.gent/id/mensgemaaktobject/archiefgent/670031638/2023-03-25T07:53:53.648Z"
+  },
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api.collectie.gent/iiif/presentation/v2/canvas/4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg.json",
+          "@type": "sc:Canvas",
+          "label": "4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg",
+          "height": 1312,
+          "width": 1826,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "attribution": "source: Archief Gent",
+              "license": "http://rightsstatements.org/vocab/InC-RUU/1.0/",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://api.collectie.gent/iiif/image/iiif/2/4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1312,
+                "width": 1826,
+                "service": {
+                  "@context": "https:///iiif.io/api/image/2/context.json",
+                  "@id": "https://api.collectie.gent/iiif/image/iiif/2/4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg",
+                  "profile": "https:///iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://api.collectie.gent/iiif/presentation/v2/canvas/4dc42dbfbabfc2ec527351da36b1c271-transcode-MA_SCMS_PBK_1649.jpg.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://api.collectie.gent/iiif/presentation/v2/canvas/b9597487c11df12a5dd66fab34448605-transcode-MA_SCMS_PBK_1649_v.jpg.json",
+          "@type": "sc:Canvas",
+          "label": "b9597487c11df12a5dd66fab34448605-transcode-MA_SCMS_PBK_1649_v.jpg",
+          "height": 2445,
+          "width": 1789,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "attribution": "source: Archief Gent",
+              "license": "http://rightsstatements.org/vocab/InC-RUU/1.0/",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://api.collectie.gent/iiif/image/iiif/2/b9597487c11df12a5dd66fab34448605-transcode-MA_SCMS_PBK_1649_v.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2445,
+                "width": 1789,
+                "service": {
+                  "@context": "https:///iiif.io/api/image/2/context.json",
+                  "@id": "https://api.collectie.gent/iiif/image/iiif/2/b9597487c11df12a5dd66fab34448605-transcode-MA_SCMS_PBK_1649_v.jpg",
+                  "profile": "https:///iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://api.collectie.gent/iiif/presentation/v2/canvas/b9597487c11df12a5dd66fab34448605-transcode-MA_SCMS_PBK_1649_v.jpg.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://api.collectie.gent/iiif/presentation/v2/canvas/f4d1c250785ade2a8e04bb253bebfed0-transcode-MA_SCMS_PBK_1649_v.jpg.json",
+          "@type": "sc:Canvas",
+          "label": "f4d1c250785ade2a8e04bb253bebfed0-transcode-MA_SCMS_PBK_1649_v.jpg",
+          "height": 2861,
+          "width": 3822,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "attribution": "source: Archief Gent",
+              "license": "http://rightsstatements.org/vocab/InC-RUU/1.0/",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://api.collectie.gent/iiif/image/iiif/2/f4d1c250785ade2a8e04bb253bebfed0-transcode-MA_SCMS_PBK_1649_v.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2861,
+                "width": 3822,
+                "service": {
+                  "@context": "https:///iiif.io/api/image/2/context.json",
+                  "@id": "https://api.collectie.gent/iiif/image/iiif/2/f4d1c250785ade2a8e04bb253bebfed0-transcode-MA_SCMS_PBK_1649_v.jpg",
+                  "profile": "https:///iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://api.collectie.gent/iiif/presentation/v2/canvas/f4d1c250785ade2a8e04bb253bebfed0-transcode-MA_SCMS_PBK_1649_v.jpg.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
